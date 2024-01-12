@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Hledání barev</title>
+    <link rel="stylesheet" href="hexaColour/hadaniB.css">
+</head>
+<body>
+
+    <ul>
+        <li><a href="piskvorky.html" id="Piskvorky-link">Piškvorky</a></li>
+        <li><a href="hadaniB.html" id="HexaColour-link">Hádání barev</a></li>
+        <li style="float:right"><a href="menuIndex.html">Hlavní Menu</a></li>
+    </ul>
+    
+<div id="zadani">Zkus najít tuhle barvu:</div>
+<div id="hledanaBarvaVypis">
+    <div id="hex-code"></div>
+</div>
+<div id="barvy"></div>
+<p id="info"></p>
+<button onclick="resetHry()">Nová hra</button>
+
+<div>
+    <div id="zadani">Zvol si obtížnost</div>
+    <input id="pocetBarev" type="number" min="3" max="48" value="3">
+</div>
+
+
+
+
+
+<script src="hexaColour/hadaniB.js"></script>
+</body>
+</html>
+
+
